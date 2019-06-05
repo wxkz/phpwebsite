@@ -1,0 +1,7 @@
+1 - sol
+2 - nublado
+3 - nuvens
+4 - somcomchuva
+5 - garoa
+6 - chuva 
+7 - trovoes 

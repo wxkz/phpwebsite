@@ -1,0 +1,77 @@
+/* DESKTOP ##############################################################################################*/
+@media only screen and (min-width: 768px) {
+    body {
+
+    }
+    
+    iframe#fullcalendar {
+        width: 500px;
+        height: 500px;
+    }
+    iframe#weather {
+        width: 800px;
+        height: 400px;
+    }
+    
+    div#buy {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 60px 650px 100px;
+    }
+    
+    div#resume {
+    
+    }
+    
+    div#weather {
+    
+    }
+    
+    div#fullcalendar {
+    
+    }
+    
+    div#about {
+        margin-top: 100px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 850px 1000px 1000px;
+    }
+
+    div#projects {
+        margin-left: 80px;
+        margin-right: 150px;
+    }
+    
+    div#image {
+        width: 500px;
+        height: 700px;
+    }
+    
+    div#socialmedias {
+        
+    }
+}
+
+/* CELULARES ##############################################################################################*/
+
+@media only screen and (max-width: 768px) and (min-width: 0px){
+    iframe#fullcalendar {
+        padding: 20px;
+        height: 300px;
+    } 
+    iframe#weather {
+        padding: 20px;
+        height: 610px;
+        width: 400px;
+      }
+    div#projects {
+        margin-top: 150px;
+        margin-left: 60px;
+        margin-right: 120px;
+    }
+    div#image {
+        visibility: hidden;
+    }
+
+}
